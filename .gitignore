@@ -1,0 +1,53 @@
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+auth.json
+
+# --- Dependencies ---
+/vendor
+/node_modules
+
+# --- Build output ---
+/public/build
+/public/hot
+/public/storage
+
+# --- Database ---
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# --- Laravel storage (generated/cached files) ---
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/pail
+/storage/*.key
+!storage/framework/.gitkeep
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
+
+# --- PHPUnit ---
+.phpunit.result.cache
+/.phpunit.cache
+
+# --- IDE & Editor ---
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+.phpactor.json
+
+# --- Homestead (legacy) ---
+Homestead.json
+Homestead.yaml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
